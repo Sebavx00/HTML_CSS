@@ -1,14 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus exercitationem iste consectetur reprehenderit quaerat sapiente dicta fuga provident. Laboriosam autem inventore atque ea ut reprehenderit!"
+    />
+    <title>Course Project</title>
+
     <link rel="stylesheet" href="styles/style.css" />
     <link
       rel="stylesheet"
       href="styles/node_modules/normalize.css/normalize.css"
     />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
   </head>
   <body>
     <header>
@@ -270,8 +276,8 @@
             srcset="Img/ipad.webp 1x, Img/ipad@2x.webp 2x"
           />
           <source
-            type="image/jpg"
-            srcset="Img/ipad.jpg 1x, Img/ipad@2x.jpg 2x"
+            type="image/png"
+            srcset="Img/ipad.png 1x, Img/ipad@2x.png 2x"
           />
           <img src="Img/ipad.png" alt="" />
         </picture>
@@ -376,30 +382,28 @@
       </div>
     </section>
 
-    <!-- <div class="callout callout--primary">
+    <div class="container callout callout--primary">
       <div class="grid grid--1x2">
         <div class="callout__content">
           <h2 class="callout__heading">Ready to Get Started?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio fuga
-            architecto expedita, hic aut pariatur id? Quos modi omnis eveniet
-            ipsam, accusantium dolorem recusandae reprehenderit ipsa facere
-            optio, aliquid laborum.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+            praesentium cumque dolorum molestiae? Eveniet, voluptates?
           </p>
         </div>
         <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
       </div>
-    </div> -->
+    </div>
 
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon collapsible__chevron">
               <use xlink:href="Img/chevron.svg"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website Hosting</a></li>
@@ -409,12 +413,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon collapsible__chevron">
               <use xlink:href="Img/chevron.svg"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -424,12 +428,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon collapsible__chevron">
               <use xlink:href="Img/chevron.svg"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -439,12 +443,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domains</h2>
             <svg class="icon collapsible__chevron">
               <use xlink:href="Img/chevron.svg"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
@@ -453,13 +457,17 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="Img/logo.svg" alt="" />
           <p class="footer__copyright">&copy; 2026 Sebastian</p>
-        </section>
+        </div>
       </div>
     </footer>
 
     <script src="js/main.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
   </body>
 </html>
